@@ -19,3 +19,19 @@ filtres.forEach(filtre => {
         });
     });
 });
+
+function rechercherEvent() {
+    const recherche = document
+        .querySelector("#entree input")
+        .value.toLowerCase();
+
+    cartes.forEach(function(carte) {
+        const titre = carte.querySelector("h4").textContent.toLowerCase();
+
+        if (titre.includes(recherche)) {
+            carte.style.display = "block";
+        } else {
+            carte.style.display = "none";
+        }
+    });
+}
