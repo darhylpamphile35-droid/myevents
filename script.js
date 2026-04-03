@@ -3,14 +3,15 @@
 const evenements = [
     {
         id: 1,
-        titre: "Festival de jazz de port-au-prince",
+        titre: "Vèvè Haïti",
         type: "Culturel",
         emoji: "🎭",
-        date: "18 avril 2026",
+        date: "26 avril 2026",
         heure: "18h00",
-        lieu: "Champs de Mars, port-au-prince",
+        lieu: "Palette lounge, Pétion-ville",
+        Admission: "1500 Gdes(à l’avance)",
         description:
-            "Le festival de jazz de port-au-prince est l'un des évènements culturels les plus attendus de l'année. Une soirée inoubliable avec des artistes locaux et internationaux"
+            "Reconnectez-vous à vos racines et explorez la richesse de notre identité culturelle avec VÈVÈ AYITI. Cet événement met en évidence une conférencière d’exception : Bonheur Manoucheka (Manbo Lavi Djò), dont la parole et l’expérience apporteront un éclairage profond sur notre héritage, notre spiritualité et notre capacité à créer en restant fidèles à nous-mêmes. À travers conférences, ateliers et débats, venez participer à un moment d’échange authentique autour du thème : Identité, Héritage, Création. Un rendez-vous important pour mieux comprendre notre essence et valoriser ce que nous sommes."
     },
     {
         id: 2,
