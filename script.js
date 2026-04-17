@@ -99,3 +99,7 @@ function rechercherEvent() {
         }
     });
 }
+
+if (document.querySelector('.detail-carte')) {
+    afficherDetail();
+}
