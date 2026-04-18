@@ -8,20 +8,22 @@ const evenements = [
         emoji: "🎭",
         date: "26 avril 2026",
         heure: "18h00",
-        lieu: "Palette lounge, Pétion-ville",
+        lieu: "Montagne Noire, Pétion-ville",
         Admission: "1500 Gdes(à l’avance)",
         description:
             "Reconnectez-vous à vos racines et explorez la richesse de notre identité culturelle avec VÈVÈ AYITI. Cet événement met en évidence une conférencière d’exception : Bonheur Manoucheka (Manbo Lavi Djò), dont la parole et l’expérience apporteront un éclairage profond sur notre héritage, notre spiritualité et notre capacité à créer en restant fidèles à nous-mêmes. À travers conférences, ateliers et débats, venez participer à un moment d’échange authentique autour du thème : Identité, Héritage, Création. Un rendez-vous important pour mieux comprendre notre essence et valoriser ce que nous sommes."
     },
     {
         id: 2,
-        titre: "Tournoi de football interscolaire",
+        titre: "Tournoi de la Solidarité",
         type: "Sportif",
         emoji: "⚽",
         date: "22 avril 2026",
+        heure: "15h00",
         lieu: "Stade sylvio cator",
+        Admission: "100 gdes",
         description:
-            "Le grand tournoi interscolaire annuel réunissant les meilleures équipes de football des lycées de port-au-prince"
+            "Le grand tournoi interscolaire annuel réunissant les meilleures équipes de football des écoles de Pétion-ville"
     },
     {
         id: 3,
@@ -43,6 +45,18 @@ const evenements = [
         lieu: "Pétion-Ville",
         description:
             "Une conférence réunissant les entrepreneurs haïtiens les plus influents pour partager leurs expériences et conseils aux jeunes."
+    },
+    {
+        id: 5,
+        titre: "Devexpo",
+        type: "Académique",
+        emoji: "🎓",
+        date: "06 juin 2026",
+        heure: "15h00",
+        lieu: "Pétion-ville",
+        Admission: "Gratuit",
+        description:
+            "le plus grand rassemblement de developpeurs en Haiti, un évènement qui revient chaque année avec des nouveautés, des opportunités pour tous. Organisée non seulement pour les développeurs mais aussi pour tous les interessés de près ou de loin à l'intégration des nouvelles technologies en Haiti"
     }
 ];
 
