@@ -27,17 +27,17 @@ const evenements = [
     },
     {
         id: 3,
-        titre: "Journée de débat sur la crise sécuritaire en Haïti",
-        type: "Social",
-        emoji: "💨",
-        date: "18 mai 2026",
+        titre: "ArtGasm",
+        type: "Culturel",
+        emoji: "🎭",
+        date: "17 mai 2026",
         lieu: "Pétion-Ville",
         description:
-            "Une journée dédiée à des échanges portant sur la crise sécuritaire en Haîti, ses causes, ses conséquences et les potentielles solutions à cette dernière"
+            ""
     },
     {
         id: 4,
-        titre: "Conférence sur l'Entrepreneuriat",
+        titre: "Sommet International sur l'Entrepreneuriat et sur l'Économie",
         type: "Académique",
         emoji: "🎓",
         date: "2 Mai 2026",
